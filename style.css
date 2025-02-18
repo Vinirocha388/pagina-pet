@@ -8,6 +8,136 @@ body{
     display: flex;
     flex-direction: column;
 }
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #69d2e7;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    width: 5rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav img {
+    height: 2rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem;
+}
+h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.container-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.card {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    width: 250px;
+    min-height: 350px; /* Define uma altura mínima para os cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h3, .card p {
+    color: #000;
+    margin-bottom: 0.5rem;
+    font-size: 1rem; /* Define um tamanho de fonte consistente */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem; /* Adiciona espaçamento entre a imagem e o texto */
+}
+
+.btn-servicos {
+    background-color: #ffbd07d0;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 1rem; /* Adiciona espaçamento entre o botão e o conteúdo acima */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    display: block; /* Garante que o botão ocupe toda a largura disponível */
+    text-decoration: none; /* Remove a linha embaixo do botão */
+}
+
+/* SESSÃO DE PRODUTOS */
+.produto {
+    background-color: #fffec2;
+    color: #fff;
+    padding: 2rem;
+}
+
+/* SESSÃO GALERIA */
+.galeria {
+    background-color: #acffd8;
+    padding: 2rem;
+    text-align: center;
+}
+
+.galeria h2 {
+    color: #fff;
+    align-items: center;
+}
+.img-top, .img-bottom {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.img-container {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    align-items: center; /* Centraliza as imagens verticalmente */
+    flex-direction: column;
+}
+
+.img-container img {
+    width: 60%;
+    height: 18rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} 
 
 /* Fazer daqui para cima!!! */
 
