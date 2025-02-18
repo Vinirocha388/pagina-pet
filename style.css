@@ -163,13 +163,30 @@ h2 {
 .gallery-top {
     display: flex;
     justify-content: center;
-    gap: 400px
+    gap: 200px
 }
 
 .gallery-low {
     display: flex;
     justify-content: center;
-    gap: 400px;
+    gap: 200px;
+}
+
+.gallery-low img {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+.gallery-top img {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
