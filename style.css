@@ -18,6 +18,9 @@ body{
     color: #fff;
     flex-wrap: wrap;
 }
+.col-md-6 img {
+    border-radius: 20%;
+}
 
 .logo {
     display: flex;
@@ -60,6 +63,13 @@ h2 {
     justify-content: center;
     margin-top: 2rem;
 }
+.container-serv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
 
 .card {
     background-color: #d11c1c;
@@ -88,7 +98,7 @@ h2 {
 
 .btn-servicos {
     background-color: #07eeffd0;
-    color: #fff;
+    color: black;
     padding: 0.5rem 1.5rem;
     border: none;
     border-radius: 5px;
@@ -102,7 +112,7 @@ h2 {
 
 /* SESSÃO DE PRODUTOS */
 .produto {
-    background-color: #fffec2;
+    background-color: #f5f4b7;
     color: #000000;
     padding: 2rem;
 }
