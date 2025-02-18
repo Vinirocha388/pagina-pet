@@ -50,7 +50,7 @@ section {
 }
 h2 {
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
 
 .container-card {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .card {
-    background-color: #f8f8f8;
+    background-color: #d11c1c;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -87,7 +87,7 @@ h2 {
 }
 
 .btn-servicos {
-    background-color: #ffbd07d0;
+    background-color: #07eeffd0;
     color: #fff;
     padding: 0.5rem 1.5rem;
     border: none;
@@ -103,7 +103,7 @@ h2 {
 /* SESSÃO DE PRODUTOS */
 .produto {
     background-color: #fffec2;
-    color: #fff;
+    color: #000000;
     padding: 2rem;
 }
 
